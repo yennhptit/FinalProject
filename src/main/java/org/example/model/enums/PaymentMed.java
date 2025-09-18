@@ -1,5 +1,5 @@
-package org.example.bookstore.model.enums;
+package org.example.model.enums;
 
 public enum PaymentMed {
-    CASH, ONLINE
+    CASH, CREDIT
 }

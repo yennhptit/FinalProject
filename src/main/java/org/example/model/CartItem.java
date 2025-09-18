@@ -1,4 +1,4 @@
-package org.example.model.enums;
+package org.example.model;
 import lombok.*;
 @Builder
 @Getter
@@ -6,4 +6,7 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 public class CartItem {
+    private Long id;
+    private Book book;
+    private int quantity;
 }

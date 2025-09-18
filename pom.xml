@@ -29,6 +29,20 @@
   </dependencyManagement>
 
   <dependencies>
+      <!-- https://mvnrepository.com/artifact/org.mockito/mockito-inline -->
+      <dependency>
+          <groupId>org.mockito</groupId>
+          <artifactId>mockito-inline</artifactId>
+          <version>5.2.0</version>
+          <scope>test</scope>
+      </dependency>
+      <!-- https://mvnrepository.com/artifact/org.mockito/mockito-all -->
+      <dependency>
+          <groupId>org.mockito</groupId>
+          <artifactId>mockito-all</artifactId>
+          <version>2.0.2-beta</version>
+          <scope>test</scope>
+      </dependency>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-api</artifactId>
@@ -40,6 +54,19 @@
       <artifactId>junit-jupiter-params</artifactId>
       <scope>test</scope>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.40</version>
+    </dependency>
+  <!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest -->
+  <dependency>
+      <groupId>org.hamcrest</groupId>
+      <artifactId>hamcrest</artifactId>
+      <version>3.0</version>
+      <scope>test</scope>
+  </dependency>
   </dependencies>
 
   <build>

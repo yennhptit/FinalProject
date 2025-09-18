@@ -1,9 +1,6 @@
-package org.example.model.enums;
+package org.example.model;
 import lombok.*;
-import org.example.model.CartItem;
-import org.example.model.User;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Builder

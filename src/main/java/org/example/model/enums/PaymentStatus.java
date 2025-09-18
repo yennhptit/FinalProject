@@ -1,4 +1,4 @@
-package org.example.bookstore.model.enums;
+package org.example.model.enums;
 
 public enum PaymentStatus {
     PENDING, PROCESSING, DONE
